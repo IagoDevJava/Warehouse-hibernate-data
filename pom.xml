@@ -20,6 +20,7 @@
     <modules>
         <module>control-products</module>
         <module>shopping-list</module>
+        <module>stats</module>
     </modules>
 
     <properties>
