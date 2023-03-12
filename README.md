@@ -26,8 +26,9 @@ Pet-project № 2
 			- [ ] Получить пользовательский список <!-- /shoppinglist/custom/listId/GET -->
 			- [ ] Сохранить пользовательский список <!-- /shoppinglist/custom/listId/POST -->
 	- [ ] Контроль продуктов:
-		- [ ] Добавить купленный продукт <!-- /controlproducts/productId/POST -->
-		- [ ] Удалить закончившийся продукт <!-- /controlproducts/productId/DELETE -->
+		- [x] Добавить купленный продукт <!-- /controlproducts/productId/POST -->
+		- [x] Удалить закончившийся продукт <!-- /controlproducts/productId/DELETE -->
+		- [x] Добавить сигнал-напоминание <!-- /controlproducts/beep/GET -->
 - [ ] Создать функционал DAL
 - [ ] Написать автотесты
 
@@ -38,12 +39,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BankEmployeesSalariesApplication {
-
+public class ControlProductApp {
     public static void main(String[] args) {
-        SpringApplication.run(BankEmployeesSalariesApplication.class, args);
+        SpringApplication.run(ControlProductApp.class, args);
     }
-
 }
 ```
 
@@ -53,7 +52,7 @@ public class BankEmployeesSalariesApplication {
 
 #### ER-диаграмма базы данных для приложения:
 
-![This is ER-diagramme](warehouse-db.png)
+![This is ER-diagramme](warehouse.png)
 
 <!-- #### Примеры запросов к базе данных:
 
