@@ -3,10 +3,13 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/control-products/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/control-products/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/control-products/target/generated-sources/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shopping-list/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/shopping-list/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shopping-list/target/generated-sources/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/stats/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/stats/target/generated-sources/java" charset="UTF-8" />
   </component>
 </project>

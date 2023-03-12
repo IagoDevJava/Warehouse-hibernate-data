@@ -26,8 +26,9 @@ Pet-project № 2
 			- [ ] Получить пользовательский список <!-- /shoppinglist/custom/listId/GET -->
 			- [ ] Сохранить пользовательский список <!-- /shoppinglist/custom/listId/POST -->
 	- [ ] Контроль продуктов:
-		- [ ] Добавить купленный продукт <!-- /controlproducts/productId/POST -->
-		- [ ] Удалить закончившийся продукт <!-- /controlproducts/productId/DELETE -->
+		- [x] Добавить купленный продукт <!-- /controlproducts/productId/POST -->
+		- [x] Удалить закончившийся продукт <!-- /controlproducts/productId/DELETE -->
+		- [x] Добавить сигнал-напоминание <!-- /controlproducts/beep/GET -->
 - [ ] Создать функционал DAL
 - [ ] Написать автотесты
 
@@ -38,25 +39,20 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BankEmployeesSalariesApplication {
-
+public class ControlProductApp {
     public static void main(String[] args) {
-        SpringApplication.run(BankEmployeesSalariesApplication.class, args);
+        SpringApplication.run(ControlProductApp.class, args);
     }
-
 }
 ```
 
 ### Базы данных:
-- PG-DB - база-список всех товаров с категориями, подключается к M-DB, для получения цен
+- warehouse - база-список всех товаров с категориями, включает в себя таблицы мест, куда складывает товары при покупке и статистики покупок. Подключается к MARKET-DB, для получения цен
 - MARKET-DB - база товаров интернет-магазина. Товары, категории, цены.
-- PL-DB - база с таблицами мест, куда складывает товары при покупке, подключается к PG-DB для получения товаров
-- SL-DB - база списков покупок, подключается к PG-DB для получения товаров
-- S-DB - база статистики покупок, подключается к M-DB, для получения цен, к PG-DB для получения товаров и PL-DB для получения дат
 
 #### ER-диаграмма базы данных для приложения:
 
-![This is ER-diagramme](warehouse-db.png)
+![This is ER-diagramme](warehouse.png)
 
 <!-- #### Примеры запросов к базе данных:
 
