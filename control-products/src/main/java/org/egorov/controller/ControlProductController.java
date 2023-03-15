@@ -12,7 +12,7 @@ import javax.validation.Valid;
 @Validated
 @RestController
 @AllArgsConstructor
-@RequestMapping("/controlproducts")
+@RequestMapping("/control-products")
 public class ControlProductController {
     private final ControlProductService service;
 
