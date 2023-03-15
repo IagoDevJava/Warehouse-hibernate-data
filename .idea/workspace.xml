@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dd50b0a6-2d0f-43a3-a9e4-5b478051c78b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-list/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-list/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shopping-list/src/main/java/org/egorov/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/shopping-list/src/main/java/org/egorov/ShoppingListApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
         <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
@@ -81,10 +80,24 @@
       <recent name="org.egorov" />
     </key>
   </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="ControlProductApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="control-products" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.egorov.ControlProductApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingListApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shopping-list" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.egorov.ShoppingListApp" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -106,7 +119,7 @@
       <workItem from="1678622760995" duration="6074000" />
       <workItem from="1678628879700" duration="667000" />
       <workItem from="1678782139271" duration="179000" />
-      <workItem from="1678881525350" duration="417000" />
+      <workItem from="1678881525350" duration="727000" />
     </task>
     <servers />
   </component>
